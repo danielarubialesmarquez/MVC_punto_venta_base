@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package main;
-
+import model.Modelproveedores;
+import View_proveedores.view_proveedores;
+import controller.Contrallerproveedores;
 /**
  *
  * @author Salvador Hernández Mendoza
@@ -15,7 +17,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+       Modelproveedores modelproveedores = new Modelproveedores();
+        view_proveedores view_proveedores = new view_proveedores();
+        Contrallerproveedores Contrallerproveedores = new Contrallerproveedores(modelproveedores,view_proveedores);
+    }
     }
     
-}

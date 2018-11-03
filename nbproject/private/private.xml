@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Zeo/Documents/NetBeansProjects/MVC_punto_venta_base/src/bd/bd_punto_venta.sql</file>
-            <file>file:/C:/Users/Zeo/Documents/NetBeansProjects/MVC_punto_venta_base/src/main/Main.java</file>
+            <file>file:/C:/Users/Dani/Documents/ferreteria/jodySoft-master/src/controller/Contrallerproveedores.java</file>
+            <file>file:/C:/Users/Dani/Documents/ferreteria/jodySoft-master/src/View_proveedores/view_proveedores.java</file>
+            <file>file:/C:/Users/Dani/Documents/ferreteria/jodySoft-master/src/main/Main.java</file>
+            <file>file:/C:/Users/Dani/Documents/ferreteria/jodySoft-master/src/bd/bd_punto_venta.sql</file>
+            <file>file:/C:/Users/Dani/Documents/ferreteria/jodySoft-master/src/model/Modelproveedores.java</file>
         </group>
     </open-files>
 </project-private>
