@@ -4,9 +4,14 @@
  * and open the template in the editor.
  */
 package main;
-import model.Modelproveedores;
-import View_proveedores.view_proveedores;
-import controller.Contrallerproveedores;
+
+import models.ModelMain;
+import views.ViewMain;
+import controllers.ControllerMain;
+
+import models.ModelEmpleados;
+import controllers.ControllerEmpleados;
+import views.ViewEmpleados;
 /**
  *
  * @author Salvador Hernández Mendoza
@@ -18,9 +23,23 @@ public class Main {
      */
     public static void main(String[] args) {
         
-       Modelproveedores modelproveedores = new Modelproveedores();
-        view_proveedores view_proveedores = new view_proveedores();
-        Contrallerproveedores Contrallerproveedores = new Contrallerproveedores(modelproveedores,view_proveedores);
-    }
+        
+        
+        ModelEmpleados modelVentas = new ModelEmpleados();
+        ViewEmpleados viewVentas = new ViewEmpleados();
+        ControllerEmpleados controllerVentas = new ControllerEmpleados(modelVentas, viewVentas);
+        
+        
+        
+        
+        
+        Object[] controllers = new Object[1];
+        controllers[0] = controllerVentas;
+        
+        ModelMain modelMain = new ModelMain();
+        ViewMain viewMain = new ViewMain();
+        ControllerMain controllerMain = new ControllerMain(modelMain, viewMain, controllers);
+        
     }
     
+}
